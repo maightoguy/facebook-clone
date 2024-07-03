@@ -1,0 +1,125 @@
+body {
+  font: 1.6rem helvetica;
+  box-sizing: border-box;
+  background-color: rgb(231, 240, 240);
+}
+
+.login {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1rems;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.facebook-text {
+  padding: 0.5rem;
+  font-size: 4rem;
+  font-weight: 770;
+  color: #1877f2;
+}
+
+.facebook-title {
+  font-size: 2rem;
+  color: black;
+  font-weight: 450;
+}
+
+.login-container {
+  border: #ffffff 0.5rem solid;
+  background-color: #ffffff;
+  height: 24rem;
+  width: 27rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  font-size: 1.2rem;
+}
+
+.login-btn {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #1877f2;
+  border: none;
+  box-sizing: border-box;
+  padding: 20px 32px;
+  justify-content: center;
+  margin: 8px 1px;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.forget a {
+  color: #1877f2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.forget a:hover {
+  text-decoration: underline;
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+}
+
+.create-account-btn {
+  display: flex;
+  background-color: #2acf25;
+  color: #ffffff;
+  width: 60%;
+  justify-content: center;
+  border: none;
+  padding: 20px 32px;
+  margin: 25px 1px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.page a {
+  font-size: 1.2rem;
+  color: black;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.page {
+  font-size: 1.1rem;
+  padding-left: 10%;
+}
+
+.login-details {
+  border-bottom: 0.1rem rgb(179, 165, 165) solid;
+}

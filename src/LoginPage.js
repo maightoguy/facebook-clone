@@ -5,9 +5,9 @@ function LoginPage() {
   return (
     <div className="login">
       <div className="facebook">
-        <div className="facebook-text">Facebook</div>
+        <div className="facebook-text">facebook</div>
         <div className="facebook-title">
-          Facebook helps you connect and share with people in your life.
+          Facebook helps you connect and share <br /> with people in your life.
         </div>
       </div>
       <div className="login-container">
@@ -16,11 +16,11 @@ function LoginPage() {
           <br></br>
           <input type="password" placeholder="Password" />
           <br></br>
-          <button className="login-btn">Login</button>
-        </div>
-        <div className="forget">
-          <a href="Reset-pass-page">Forgotten password?</a>
-          <br></br>
+          <button className="login-btn">Log In</button>
+          <div className="forget">
+            <a href="Reset-pass-page">Forgotten password?</a>
+            <br></br>
+          </div>
         </div>
         <div className="create">
           <br></br>
