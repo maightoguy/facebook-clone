@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import "./LoginPage.css";
 
@@ -16,7 +17,9 @@ function LoginPage() {
           <br></br>
           <input type="password" placeholder="Password" />
           <br></br>
-          <button className="login-btn">Log In</button>
+          <button className="login-btn">
+            <Link to="/headerArea">Log In</Link>
+          </button>
           <div className="forget">
             <a href="Reset-pass-page">Forgotten password?</a>
             <br></br>
