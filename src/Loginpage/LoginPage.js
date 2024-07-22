@@ -18,7 +18,9 @@ function LoginPage() {
           <input type="password" placeholder="Password" />
           <br></br>
           <button className="login-btn">
-            <Link to="/headerArea">Log In</Link>
+            <Link className="link" to="/headerArea">
+              Log In
+            </Link>
           </button>
           <div className="forget">
             <a href="Reset-pass-page">Forgotten password?</a>
