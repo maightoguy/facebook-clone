@@ -19,42 +19,46 @@ function HeaderArea() {
             <img
               src="/images/logo.png"
               alt="logo"
-              style={{ height: "70px", padding: "1rem" }}
+              style={{
+                height: "70px",
+                marginRight: "-20px",
+                marginLeft: "-50px",
+              }}
             ></img>
           </div>
           <div className="Search">
             <AiOutlineSearch style={{ height: "4rem" }} />
-            <input placeholder="Search Facebook" type={"search"} />
+            <input placeholder="Search Facebook" type="Search" />
           </div>
         </div>
         <div className="middle-header">
           <div className="Icon">
-            <AiFillHome style={{ fontsize: "2.3rem", color: "#1877F2" }} />
+            <AiFillHome fontsize="2.3rem" color="#1877F2" />
           </div>
           <div className="Icon">
-            <FaRegFlag style={{ fontsize: "2.3rem" }} />
+            <FaRegFlag fontsize="2.3rem" />
           </div>
           <div className="Icon">
-            <MdOndemandVideo style={{ fontsize: "2.3rem" }} />
+            <MdOndemandVideo fontsize="2.3rem" />
           </div>
           <div className="Icon">
-            <FaUsers style={{ fontsize: "2.3rem" }} />
+            <FaUsers fontsize="2.3rem" />
           </div>
           <div className="Icon">
-            <AiOutlineWallet style={{ fontsize: "2.3rem" }} />
+            <AiOutlineWallet fontsize="2.3rem" />
           </div>
         </div>
         <div className="third-header">
-          <div className="pulse">
-            <FaPlusCircle style={{ fontsize: "2rem" }} />
+          <div className="plus">
+            <FaPlusCircle fontsize="2rem" />
           </div>
-          <div className="pulse">
-            <FaFacebookMessenger style={{ fontsize: "2rem" }} />
+          <div className="plus">
+            <FaFacebookMessenger fontsize="2rem" />
           </div>
-          <div className="pulse">
-            <FaBell style={{ fontsize: "2rem" }} />
+          <div className="plus">
+            <FaBell fontsize="2rem" />
           </div>
-          <div className="pulse">
+          <div className="plus">
             <img src="/images/1.jpeg" alt="dp" style={{ height: "40px" }} />
           </div>
         </div>
