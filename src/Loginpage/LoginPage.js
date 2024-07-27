@@ -8,7 +8,7 @@ function LoginPage() {
       <div className="facebook">
         <div className="facebook-text">facebook</div>
         <div className="facebook-title">
-          Facebook helps you connect and share <br /> with people in your life.
+          Connect with friends and the world <br /> around you with Facebook.
         </div>
       </div>
       <div className="login-container">
@@ -23,7 +23,7 @@ function LoginPage() {
             </Link>
           </button>
           <div className="forget">
-            <a href="Reset-pass-page">Forgotten password?</a>
+            <a href="Reset-pass-page">Forgot account?</a>
             <br></br>
           </div>
         </div>

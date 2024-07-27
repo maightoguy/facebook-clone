@@ -9,6 +9,7 @@ import {
   FaUsers,
 } from "react-icons/fa";
 import { MdOndemandVideo } from "react-icons/md";
+import MainArea from "../MainArea/MainArea";
 
 function HeaderArea() {
   return (
@@ -63,6 +64,7 @@ function HeaderArea() {
           </div>
         </div>
       </div>
+      <MainArea />
     </div>
   );
 }
